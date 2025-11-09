@@ -4,7 +4,7 @@
 let person : string[] = ["sahriyar", "ahmad", "ali"];
 
 person.push("khan"); 
-person.push(474); // error
+// person.push(474); // error
 person.pop();
 console.log(person);
 
