@@ -13,5 +13,5 @@ const getDesboard = (role : user) => {
 
 getDesboard("addmin");
 getDesboard("super-admin");
-getDesboard("gust");
+getDesboard("user");
 // getDesboard("guest"); // error because guest is not in union typep
