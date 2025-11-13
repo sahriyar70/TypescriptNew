@@ -3,7 +3,8 @@
 
  const getuser = (input : string | null) => {
     if(input){
-        console.log(`user name is ${input}`);   
+        console.log(`user name is ${input}`);
+
     } else {
         console.log("no user found");
     }  }
