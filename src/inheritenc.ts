@@ -18,7 +18,7 @@ class student {
         student2.getstudentInfo(); 
 
 
-        class parent {
+        class parent {     // inheritance
             name : string;
              constructor ( name : string){
                 this.name = name;
@@ -28,7 +28,7 @@ class student {
                 console.log(`hello from parent class, name is ${this.name}`);
              }   }
 
-             class child extends parent {
+             class child extends parent { // inherit parent class
                 age : number 
                 constructor (name : string, age : number){
                     super(name);

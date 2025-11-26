@@ -20,7 +20,7 @@ const getuser = (input : keyof typeof user) => {
     } 
 }
 
-getuser("name");
+console.log(getuser("name"));   
 getuser("age"); 
 getuser("id");
 getuser("address");

@@ -41,7 +41,7 @@
         name : "sahriyar"
     }; 
 
-    const userCity = newUser?.address?.postcode ?? "No postcode available";
+    const userCity = newUser?.address?.postcode ?? "No postcode available"; // optional chaining with nullish coalescing
     console.log(userCity);
 
 

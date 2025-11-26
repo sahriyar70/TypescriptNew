@@ -1,7 +1,8 @@
 // oop class - object 
 
  class Animal {
-    constructor (public name : string, public species : string, public sound : string)  // property declare in constructor 
+    constructor (public name : string, public species : string,
+       public sound : string)  // property declare in constructor 
 
     {
 
